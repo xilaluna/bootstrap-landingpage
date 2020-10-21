@@ -10,11 +10,18 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/slate/bootstrap.min.css"
+      integrity="sha384-8iuq0iaMHpnH2vSyvZMSIqQuUnQA7QM+f6srIdlgBrTSEyd//AWNMyEaSF2yPzNQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand navbar-light bg-light">
+      <nav class="navbar navbar-expand navbar-dark">
         <a class="navbar-brand" href="/index.html">Launch Page</a>
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="#"
@@ -28,16 +35,61 @@
 
     <main>
       <!-- HERO -->
-      <div class="jumbotron text-center">
+      <div class="jumbotron text-center hero-background-img">
         <h1>Launch Page</h1>
         <p class="lead">A Fantastic Product!</p>
         <a href="#" class="btn btn-primary">Learn More</a>
       </div>
       <!-- BENEFITS -->
+      <div class="container pb-5 pt-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>Test</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
+              amet iure, voluptatem harum vitae tempore sit quis voluptates ab
+              numquam enim doloremque fuga voluptatum. Itaque accusamus sint
+              quae consequuntur ipsum!
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h3>Test</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
+              amet iure, voluptatem harum vitae tempore sit quis voluptates ab
+              numquam enim doloremque fuga voluptatum. Itaque accusamus sint
+              quae consequuntur ipsum!
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h3>Test</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
+              amet iure, voluptatem harum vitae tempore sit quis voluptates ab
+              numquam enim doloremque fuga voluptatum. Itaque accusamus sint
+              quae consequuntur ipsum!
+            </p>
+          </div>
+        </div>
+      </div>
       <!-- CALL TO ACTION -->
+      <div class="jumbotron text-center mb-0">
+        <p class="lead">Sign Up for More Information</p>
+        <div class="d-flex justify-content-center">
+          <form action="#" class="form-inline">
+            <input
+              type="text"
+              class="form-control mb-2 mr-sm-2"
+              placeholder="Email"
+            />
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer>
       <!-- FOOTER -->
+      <div class="footer p-5 text-white">&copy; 2020 Launch Page Inc</div>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
